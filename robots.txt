@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+# Add Sitemap after assigning the actual Cloudflare Pages domain.

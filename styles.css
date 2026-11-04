@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800;900&display=swap');:root{--dark:#102b29;--deep:#09201e;--mint:#c9e9d8;--gold:#d8bb76;--ink:#152522;--muted:#687571;--line:#e1e8e3;--paper:#f6f8f5}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:'Noto Sans KR',sans-serif;word-break:keep-all}a{text-decoration:none;color:inherit}button{font:inherit;cursor:pointer}img{max-width:100%;display:block}.shell{width:min(1180px,calc(100% - 48px));margin:auto}.topline{padding:8px 4%;background:#09221f;color:#d9e9e2;text-align:center;font-size:11px;letter-spacing:.02em}.topline span{margin-left:20px;color:#a7bdb4}.nav{height:86px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:11px}.brand img{width:53px;height:53px;object-fit:cover;border-radius:50%;border:2px solid var(--gold)}.brand strong{display:block;font-size:20px;font-weight:900;letter-spacing:-.06em}.brand small{display:block;font-size:9px;color:#74857e;letter-spacing:.17em;margin-top:1px}.nav nav{display:flex;align-items:center;gap:25px;font-size:13px;font-weight:700}.nav nav>a:not(.navcta):hover{color:#208e70}.navcta{background:var(--dark);color:white;padding:13px 18px;border-radius:8px}.navcta span{margin-left:12px;color:var(--gold)}.menu{display:none;border:0;background:transparent;font-size:27px}.hero{background:radial-gradient(ellipse at 76% 50%,#1f4e45 0%,#102f2c 42%,#091e1c 100%);color:#fff;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;align-items:center;min-height:610px;gap:35px}.hero-copy{padding:70px 0 35px;position:relative;z-index:2}.eyebrow,.kicker{font-size:12px;letter-spacing:.17em;font-weight:900;color:#1b8b68}.eyebrow{color:#e7cf90;display:flex;align-items:center;gap:9px}.pulse{width:7px;height:7px;background:#d8bc77;border-radius:50%;box-shadow:0 0 0 5px #d8bc7725}.hero h1{font-size:clamp(38px,4.1vw,61px);line-height:1.36;letter-spacing:-.065em;margin:23px 0 23px;font-weight:900}.hero h1 em{font-style:normal;color:#e4c987}.hero-copy>p{font-size:15px;line-height:2;color:#cbdcd4;max-width:600px}.hero-copy>p strong{color:white}.hero-actions,.consult-actions{display:flex;gap:11px;flex-wrap:wrap;margin-top:29px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:20px;padding:16px 23px;border-radius:9px;font-size:13px;font-weight:800;transition:transform .2s}.btn:hover{transform:translateY(-3px)}.primary{background:linear-gradient(110deg,#e6cc8f,#c8a95d);color:#182824}.ghost{border:1px solid #6b8980;color:white}.dark{background:var(--dark);color:white}.hero-metrics{display:flex;gap:36px;border-top:1px solid #55756c77;margin-top:42px;padding-top:25px}.hero-metrics b{font-size:31px;color:#e7d29d;letter-spacing:-.05em}.hero-metrics b small{font-size:15px;margin-left:2px}.hero-metrics span{display:block;color:#b8cbc4;font-size:11px;margin-top:3px}.hero-visual{min-height:540px;position:relative;display:flex;align-items:center;justify-content:center}.orbit{position:absolute;border:1px solid #cbbd8250;border-radius:50%;width:470px;height:470px}.orbit.two{width:550px;height:550px;border-color:#ffffff15}.portrait{position:relative;z-index:1;width:min(430px,92%);aspect-ratio:1;border-radius:50%;padding:9px;border:1px solid #d6b66d7d;background:#0d2b28;box-shadow:0 25px 75px #0007}.portrait img{width:100%;height:100%;object-fit:cover;border-radius:50%}.visual-note{position:absolute;z-index:2;bottom:18px;right:0;background:#fff;color:#17332e;padding:16px 24px;border-radius:12px;box-shadow:0 14px 35px #0004}.visual-note span,.visual-note small{display:block;font-size:10px;color:#648079}.visual-note strong{display:block;font-size:17px;margin:4px 0}.hero-disclaimer{font-size:10px;color:#9db5ab;padding:0 0 21px}.section{padding-top:110px;padding-bottom:110px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:45px;margin-bottom:40px}.section-head h2{font-size:clamp(30px,3.1vw,43px);line-height:1.42;letter-spacing:-.065em;margin:12px 0 0;font-weight:900}.section-head>p{max-width:415px;color:#667772;font-size:14px;line-height:2;margin:0}.value-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.value-grid article{padding:35px;border:1px solid var(--line);border-radius:14px;background:#fff}.value-icon{display:inline-block;color:#188c6a;font-size:15px;font-weight:900;letter-spacing:.06em;border-bottom:2px solid #9cdbc4;padding-bottom:8px}.value-grid h3{font-size:21px;margin:22px 0 9px}.value-grid p{color:var(--muted);font-size:13px;line-height:1.9;margin:0}.finance{background:#f5f8f5}.finance-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.finance-card{background:#fff;border:1px solid #e1e9e2;padding:31px 28px;border-radius:15px;display:flex;flex-direction:column;min-height:510px}.finance-card.featured{background:var(--dark);color:white;border-color:var(--dark);box-shadow:0 20px 50px #0a342a22}.tag{font-size:11px;font-weight:800;background:#d7b976;color:#142a26;border-radius:100px;padding:7px 12px;align-self:start}.tag.outline{background:#e8f3ed;color:#24795f}.finance-card h3{font-size:25px;margin:21px 0 5px;letter-spacing:-.04em}.finance-card .sub{color:#8b9b96;font-size:12px;min-height:36px}.finance-card.featured .sub{color:#a7c4b8}.big-num{font-size:17px;font-weight:700;margin:20px 0 17px;border-bottom:1px solid #cdd9d2;padding-bottom:21px}.big-num b{font-size:48px;letter-spacing:-.08em;color:#248c6c}.featured .big-num{border-color:#45665b}.featured .big-num b{color:#ebce8b}.big-num.word b{font-size:36px}.finance-card ul{padding:0;margin:0 0 24px;list-style:none;flex:1}.finance-card li{font-size:12px;line-height:1.85;padding:8px 0 8px 19px;position:relative;border-bottom:1px solid #edf0ed}.featured li{border-color:#31514a}.finance-card li:before{content:'✓';position:absolute;left:0;color:#2a9c76}.featured li:before{color:#e5c780}.finance-card>a{font-size:13px;font-weight:900;color:#1d8465}.featured>a{color:#e9cc87}.note-box{border-left:4px solid #bba063;background:#e9eee8;padding:23px 28px;margin-top:22px}.note-box strong{font-size:15px}.note-box p{font-size:12px;line-height:1.9;color:#53645c;margin:7px 0 0}.model-filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}.model-filters button{background:#fff;border:1px solid #d8e4dc;border-radius:8px;padding:11px 17px;font-size:12px;font-weight:800;color:#587068}.model-filters button.selected{background:#163d34;color:white;border-color:#163d34}.model-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.model-card{border:1px solid #e1e8e2;border-radius:12px;padding:22px;background:linear-gradient(140deg,#fff,#f7faf8)}.model-card .kind{font-size:10px;font-weight:800;color:#238564}.model-card h3{font-size:19px;margin:13px 0 6px;letter-spacing:-.05em}.model-card p{font-size:11px;color:#72847b;line-height:1.6;margin:0}.model-card a{display:inline-block;margin-top:18px;font-size:11px;font-weight:800;color:#187956}.model-caveat{color:#8a9890;font-size:11px;line-height:1.8;margin-top:20px}.cases{background:#102b29;color:white}.cases .section-head>p{color:#b3c7bd}.cases .kicker{color:#e0c57d}.case-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.case-card{background:#1b3c36;border:1px solid #35564d;border-radius:13px;padding:23px 19px;display:flex;flex-direction:column}.case-top{display:flex;justify-content:space-between;gap:5px;align-items:center;font-size:10px;color:#c1d3cb}.case-top b{font-size:10px;color:#edcd86}.case-card h3{font-size:22px;margin:22px 0 8px}.case-card>p{font-size:12px;color:#b6c8c0;line-height:1.85;min-height:70px}.case-card dl{margin:13px 0 22px;flex:1}.case-card dl div{display:flex;justify-content:space-between;gap:5px;padding:9px 0;border-bottom:1px solid #35574c}.case-card dt{font-size:11px;color:#9cb6a9}.case-card dd{margin:0;font-size:12px;font-weight:800}.case-card>a{font-size:12px;color:#e8ca83;font-weight:900}.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.steps>div{padding:25px 15px;border-top:2px solid #d8e6de;background:#f7faf7}.steps span{display:block;color:#1e9270;font-weight:900;margin-bottom:18px}.steps strong{display:block;font-size:15px}.steps small{display:block;color:#8b9c92;font-size:11px;margin-top:8px}.reviews{background:#f5f8f5}.reviews h2 em{color:#238f6e;font-style:normal}.blog-status{font-size:12px;color:#7c8c84;margin:0 0 15px}.blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.blog-card{padding:23px;border:1px solid #e1e8e2;border-radius:13px;background:#fff;min-height:175px}.blog-card small{font-size:10px;color:#2b9572;font-weight:800}.blog-card h3{font-size:16px;line-height:1.55;letter-spacing:-.04em;margin:12px 0}.blog-card time{font-size:11px;color:#86978e}.center{text-align:center;margin-top:30px}.faqs{border-top:2px solid #14372f}.faqs details{border-bottom:1px solid #dce5df}.faqs summary{cursor:pointer;padding:23px 35px 23px 4px;font-size:15px;font-weight:800;list-style:none;position:relative}.faqs summary:after{content:'+';position:absolute;right:8px;color:#228d6b;font-size:22px;top:17px}.faqs details[open] summary:after{content:'−'}.faqs details p{color:#5f746a;font-size:13px;line-height:2;margin:0;padding:0 30px 23px 4px}.consult{background:linear-gradient(110deg,#173e35,#09221e);color:#fff;overflow:hidden}.consult-grid{display:grid;grid-template-columns:1fr 300px;align-items:center;gap:80px;padding-top:70px;padding-bottom:70px}.kicker.light{color:#e2c77e}.consult h2{font-size:clamp(31px,3.4vw,45px);line-height:1.4;letter-spacing:-.06em;margin:15px 0}.consult p{font-size:13px;line-height:1.9;color:#b7cdc1}.consult img{border-radius:50%;border:7px solid #b9a06c;width:280px}.consult-actions .ghost{border-color:#6d8b7e}footer{background:#081b18;color:#d3e0d8;padding:40px 0 22px}.footer-inner{display:flex;justify-content:space-between;gap:30px}.footer-inner strong{font-size:16px}.footer-inner p{font-size:11px;color:#829e8f;line-height:1.8}.footer-links{display:flex;flex-direction:column;gap:10px;font-size:12px;font-weight:800}.footer-bottom{border-top:1px solid #234238;margin-top:30px;padding-top:20px;font-size:10px;color:#819b8b;display:flex;justify-content:space-between;gap:20px}@media(max-width:1050px){.nav nav{gap:12px;font-size:12px}.hero-grid{grid-template-columns:1fr 0.8fr}.hero-visual{min-height:460px}.orbit{width:350px;height:350px}.orbit.two{width:420px;height:420px}.case-grid{grid-template-columns:repeat(2,1fr)}.model-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:760px){.shell{width:min(100% - 32px,1180px)}.topline span{display:none}.nav{height:72px}.brand img{width:46px;height:46px}.brand strong{font-size:17px}.menu{display:block}.nav nav{display:none;position:absolute;z-index:20;top:106px;left:0;right:0;background:white;padding:22px;box-shadow:0 15px 20px #0002;flex-direction:column;align-items:stretch;gap:19px}.nav nav.open{display:flex}.hero-grid{display:flex;flex-direction:column;gap:0}.hero-copy{padding:60px 0 0}.hero h1{font-size:clamp(34px,8vw,47px)}.hero-copy>p{font-size:13px}.hero-metrics{gap:19px;margin-top:30px}.hero-metrics b{font-size:26px}.hero-metrics span{font-size:10px}.hero-visual{min-height:370px;width:100%}.portrait{width:290px}.orbit{width:310px;height:310px}.orbit.two{width:360px;height:360px}.visual-note{right:2%;bottom:0;padding:11px 14px}.visual-note strong{font-size:12px}.hero-disclaimer{padding-top:20px}.section{padding-top:70px;padding-bottom:70px}.section-head{display:block;margin-bottom:28px}.section-head>p{margin-top:17px;font-size:13px}.value-grid,.finance-grid,.blog-grid{grid-template-columns:1fr}.finance-card{min-height:auto}.model-grid{grid-template-columns:repeat(2,1fr)}.case-grid{grid-template-columns:1fr}.case-card>p{min-height:0}.steps{grid-template-columns:repeat(2,1fr)}.consult-grid{grid-template-columns:1fr;gap:10px}.consult img{width:180px;margin:auto}.footer-inner,.footer-bottom{flex-direction:column}.footer-links{flex-direction:row;flex-wrap:wrap}}@media(max-width:390px){.model-grid{grid-template-columns:1fr}.hero-metrics{gap:12px}.hero-metrics b{font-size:23px}.hero-actions .btn{width:100%}}
+
+/* User-supplied photo integration */
+.advisor-gallery,.finance-photos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:24px 0 30px}
+.advisor-gallery figure,.finance-photos figure{margin:0;background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:18px;overflow:hidden}
+.advisor-gallery img,.finance-photos img{width:100%;height:310px;object-fit:contain;display:block;background:#f2f5f4}
+.advisor-gallery figcaption,.finance-photos figcaption{padding:12px 16px;color:#415452;font-size:14px}
+.blog-banner{display:grid;grid-template-columns:minmax(0,260px) 1fr;align-items:center;gap:20px;background:#edf8f6;border-radius:18px;overflow:hidden;margin-bottom:24px}
+.blog-banner img{width:100%;height:180px;object-fit:cover}.blog-banner strong{font-size:20px}.blog-banner p{margin:7px 14px 0 0;color:#526460}
+.hero-visual .portrait img{object-fit:contain;background:#e8efec}
+@media(max-width:700px){.advisor-gallery,.finance-photos{grid-template-columns:1fr}.advisor-gallery img,.finance-photos img{height:auto;max-height:420px}.blog-banner{grid-template-columns:1fr}.blog-banner img{height:210px}.blog-banner div{padding:0 18px 20px}}
+
+.vehicle-gallery{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:13px}
+.vehicle-tile{border:1px solid #dfe8e3;border-radius:15px;overflow:hidden;background:white;box-shadow:0 6px 20px #092c2310;transition:transform .2s}
+.vehicle-tile:hover{transform:translateY(-4px)}
+.vehicle-tile img{width:100%;aspect-ratio:1.12;object-fit:cover;display:block}
+.vehicle-tile span{display:flex;flex-direction:column;gap:4px;padding:14px}
+.vehicle-tile strong{font-size:16px}.vehicle-tile small{font-size:11px;color:#228365}
+.hero-vehicle-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:18px}
+.hero-vehicle-strip img{width:100%;height:130px;object-fit:cover;border-radius:12px;border:1px solid #ffffff3b}
+.case-vehicle{width:100%;height:145px;object-fit:cover;border-radius:9px;margin-bottom:18px}
+@media(max-width:1050px){.vehicle-gallery{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:760px){.vehicle-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-vehicle-strip img{height:80px}.case-vehicle{height:180px}}
+
+/* v5: balanced automotive hero and reduced portrait repetition */
+.hero-visual-v5{display:block;min-height:530px;padding:45px 0 42px}
+.hero-car-main{position:absolute;top:38px;right:0;width:96%;height:345px;border-radius:24px;overflow:hidden;border:1px solid #b7d0c04a;box-shadow:0 25px 70px #0006}
+.hero-car-main:after{content:"";position:absolute;inset:45% 0 0;background:linear-gradient(transparent,#091b1aaa)}
+.hero-car-main img{width:100%;height:100%;object-fit:cover}
+.hero-car-caption{position:absolute;bottom:17px;left:20px;z-index:1;color:white;font-size:12px;font-weight:800}
+.hero-car-secondary{position:absolute;bottom:24px;left:0;width:48%;height:170px;border-radius:18px;overflow:hidden;border:6px solid #133b33;box-shadow:0 16px 40px #0006}
+.hero-car-secondary img{width:100%;height:100%;object-fit:cover}
+.hero-advisor{position:absolute;right:0;bottom:14px;width:49%;background:#f7fbf7;border:1px solid #d5e4db;color:#183a30;border-radius:16px;padding:10px;display:flex;align-items:center;gap:10px;box-shadow:0 12px 35px #0004}
+.hero-advisor img{width:74px;height:74px;object-fit:cover;border-radius:12px}
+.hero-advisor small{display:block;font-size:10px;color:#6b8379}.hero-advisor strong{font-size:18px}
+.advisor-gallery{grid-template-columns:minmax(0,520px);justify-content:center}
+.advisor-gallery img{height:340px}
+.blog-banner-v5{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:27px 30px}
+.blog-banner-v5>div{display:flex;flex-direction:column;gap:5px}
+.blog-banner-v5 strong{font-size:21px}.blog-banner-v5 p{margin:0}
+.blog-banner-v5>a{font-size:12px;font-weight:800;color:#177657}
+.model-filters button:focus-visible,.btn:focus-visible,.vehicle-tile:focus-visible{outline:3px solid #c0a35b;outline-offset:3px}
+@media(max-width:1050px){.hero-visual-v5{min-height:490px}.hero-car-main{height:305px}.hero-car-secondary{height:140px}}
+@media(max-width:760px){.hero-visual-v5{min-height:405px;padding:18px 0}.hero-car-main{top:18px;width:100%;height:270px}.hero-car-secondary{bottom:15px;height:128px}.hero-advisor{bottom:12px;padding:8px;width:49%}.hero-advisor img{width:54px;height:54px}.hero-advisor strong{font-size:14px}.hero-advisor small{font-size:9px}.blog-banner-v5{align-items:flex-start;flex-direction:column;padding:23px}.hero-vehicle-strip{margin-top:8px}}
+@media(max-width:390px){.hero-car-main{height:220px}.hero-visual-v5{min-height:340px}.hero-car-secondary{height:105px}.hero-advisor img{width:45px;height:45px}.hero-advisor strong{font-size:12px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn,.vehicle-tile{transition:none}}
+
+/* v6: photograph-free vehicle design; retain only AG-owned consultant/brand imagery */
+.hero-finance-panel{min-height:470px!important;padding:31px!important;display:flex!important;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden;border:1px solid #8cb9a440;border-radius:25px;background:linear-gradient(150deg,#173f35 0%,#0b2c2c 64%,#0a1e24 100%);box-shadow:0 24px 60px #031e1d70;color:#fff}
+.hero-finance-panel:before{content:'';position:absolute;width:310px;height:310px;border-radius:50%;border:1px solid #ffffff25;right:-95px;top:-105px;pointer-events:none}
+.finance-panel-top{display:flex;align-items:center;justify-content:space-between;gap:15px}.finance-panel-label{font-size:11px;letter-spacing:2px;color:#b7e5d1;font-weight:800}.finance-panel-symbol{display:grid;place-items:center;width:40px;height:40px;border:1px solid #d6eee258;border-radius:12px;font-size:22px;font-weight:900;color:#cce6d9}
+.hero-finance-panel h2{font-size:clamp(28px,3vw,41px);line-height:1.25;letter-spacing:-1.5px;margin:20px 0 6px;color:#fff}.hero-finance-panel h2 em{font-style:normal;color:#a5e4ca}.hero-finance-panel>p{color:#c6ddd6;font-size:13px;line-height:1.6;margin:0 0 16px}
+.finance-panel-stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:5px 0 17px}.finance-panel-stats>div{border:1px solid #ffffff29;border-radius:14px;padding:14px 15px;background:#ffffff0b}.finance-panel-stats strong{font-size:29px;display:block;line-height:1.1}.finance-panel-stats small{color:#c7ded5;font-size:11px}
+.finance-panel-advisor{display:flex;align-items:center;gap:12px;background:#f5faf7;color:#153b31;border-radius:15px;padding:10px}.finance-panel-advisor img{width:64px;height:64px;object-fit:cover;border-radius:10px}.finance-panel-advisor>div{flex:1;min-width:0}.finance-panel-advisor small{display:block;font-size:11px;color:#66857a}.finance-panel-advisor strong{font-size:18px}.finance-panel-advisor a{white-space:nowrap;background:#177654;color:#fff;border-radius:9px;padding:11px;font-size:11px;font-weight:800}
+.case-card{overflow:hidden}.case-card .case-top{margin-top:0}
+@media(max-width:760px){.hero-finance-panel{min-height:420px!important;padding:23px!important}.hero-finance-panel h2{font-size:30px}.finance-panel-advisor img{width:52px;height:52px}.finance-panel-advisor strong{font-size:16px}.finance-panel-advisor a{padding:9px;font-size:10px}}
+@media(max-width:370px){.hero-finance-panel{padding:18px!important}.finance-panel-advisor{gap:8px}.finance-panel-advisor img{width:45px;height:45px}}
+
+/* v7: premium hero portrait, no metrics boxes */
+.hero-finance-panel.hero-visual{display:block!important;min-height:545px!important;padding:0!important;position:relative;isolation:isolate;background:radial-gradient(circle at 55% 35%,#265c4e 0%,#10352e 53%,#071e24 100%);overflow:hidden}
+.hero-finance-panel.hero-visual:before{width:390px;height:390px;right:-130px;top:40px;border:1px solid #ffffff16}
+.hero-finance-panel.hero-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#092721ee 0%,#0b3027a6 47%,transparent 76%),linear-gradient(0deg,#061b1ee6 0%,transparent 35%);z-index:1;pointer-events:none}
+.hero-luxury-eyebrow{position:absolute;z-index:3;top:31px;left:30px;font-size:10px;letter-spacing:2px;color:#c8eadb;font-weight:800;display:flex;align-items:center;gap:9px}
+.hero-luxury-line{width:20px;height:1px;background:#d7b980;display:inline-block}
+.hero-luxury-heading{position:absolute;top:99px;left:30px;right:12px;z-index:3;max-width:390px}
+.hero-luxury-heading>span{display:inline-block;color:#f5dfb0;font-weight:750;letter-spacing:-.3px;font-size:15px}
+.hero-luxury-heading h2{font-size:clamp(29px,3.2vw,42px);letter-spacing:-1.9px;line-height:1.25;margin:17px 0 14px;text-shadow:0 2px 20px #0008}
+.hero-luxury-heading h2 em{color:#c2f0d8;font-style:normal}
+.hero-luxury-heading p{font-size:12px;line-height:1.85;color:#e0ece5;max-width:320px;text-shadow:0 1px 12px #000a}
+.hero-luxury-portrait{position:absolute;right:-15px;bottom:0;width:65%;height:92%;z-index:0;display:flex;align-items:flex-end;justify-content:flex-end;overflow:hidden}
+.hero-luxury-portrait img{height:100%;width:100%;object-fit:cover;object-position:55% 20%;filter:saturate(.95) contrast(1.03)}
+.hero-luxury-bottom{position:absolute;z-index:3;bottom:22px;left:30px;right:26px;display:flex;align-items:end;justify-content:space-between;gap:12px}
+.hero-luxury-bottom small{display:block;font-size:9px;letter-spacing:1.6px;color:#b4d8c9;margin-bottom:6px}.hero-luxury-bottom strong{font-size:22px;color:#fff}
+.hero-luxury-bottom a{font-size:12px;font-weight:800;color:#10362b;background:#e8d6ac;border-radius:8px;padding:12px 14px;white-space:nowrap}
+@media(max-width:1050px){.hero-finance-panel.hero-visual{min-height:515px!important}.hero-luxury-heading{top:85px}.hero-luxury-portrait{width:71%}}
+@media(max-width:760px){.hero-finance-panel.hero-visual{min-height:490px!important}.hero-luxury-eyebrow{top:24px;left:22px}.hero-luxury-heading{top:86px;left:22px}.hero-luxury-heading h2{font-size:clamp(27px,6vw,35px)}.hero-luxury-heading>span{font-size:13px}.hero-luxury-portrait{width:73%;height:82%;right:-18px}.hero-luxury-bottom{left:22px;right:20px;bottom:20px}.hero-luxury-bottom strong{font-size:19px}}
+@media(max-width:420px){.hero-finance-panel.hero-visual{min-height:470px!important}.hero-luxury-heading{top:73px}.hero-luxury-heading h2{font-size:28px}.hero-luxury-heading p{font-size:11px;max-width:240px}.hero-luxury-portrait{width:79%;height:76%;opacity:.92}.hero-luxury-bottom a{font-size:11px;padding:10px}.hero-luxury-bottom strong{font-size:17px}}
+
+.hero-signature .signature-note{font-size:11px;color:#e8d6ac;font-weight:700;text-align:right;max-width:160px;line-height:1.5;text-shadow:0 2px 10px #0008}
+.hero-luxury-heading p strong{color:#f4e5be}
+@media(max-width:760px){.hero-signature .signature-note{font-size:10px;max-width:125px}.hero-grid>.hero-finance-panel{order:0}.hero-grid>.hero-copy{order:1;padding-top:35px}}
+
+/* BMW-specific sections */
+.compare-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.compare-grid article{border:1px solid #dce6df;border-radius:16px;padding:30px;background:white}.compare-grid h3{font-size:24px;color:#123a30}.compare-grid p,.compare-grid li{font-size:13px;line-height:1.9;color:#516960}.compare-grid ul{padding-left:18px}.advantage-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.advantage-grid article{border:1px solid #dce6df;border-radius:15px;padding:25px;background:#f9fbf8}.advantage-grid span{font-weight:900;color:#14876a}.advantage-grid h3{font-size:19px}.advantage-grid p{font-size:13px;line-height:1.85;color:#5e7069}.smart{background:#f4f8f5}@media(max-width:760px){.compare-grid,.advantage-grid{grid-template-columns:1fr}.compare-grid article{padding:23px}.advantage-grid article{padding:22px}}
+
+/* Audi standalone refinements */
+.hero-visual.hero-finance-panel .hero-luxury-portrait img{object-position:center 15%}
+.model-card{display:flex;flex-direction:column}.model-card p{flex:1}.model-card a{align-self:flex-start}
+.model-card .model-detail{font-size:12px;color:#526c60;margin-top:12px;line-height:1.7}
+.case-card .case-visual{height:126px;border-radius:11px;background:linear-gradient(135deg,#31584e,#0c2423);display:flex;align-items:center;justify-content:center;border:1px solid #507567;margin:12px 0 4px;overflow:hidden;position:relative}
+.case-card .case-visual::before{content:'';position:absolute;width:150px;height:150px;border:1px solid #b3cbb647;border-radius:50%;right:-30px;top:-45px}.case-card .case-visual span{font-size:28px;letter-spacing:-1px;color:#f0d79c;font-weight:900;z-index:1}.case-card .case-visual small{position:absolute;bottom:14px;left:17px;color:#d2e6d8;font-size:10px}
+.status-note{margin-top:20px;font-size:12px;color:#65776e;line-height:1.8}.source-links a{color:#1a7b60;text-decoration:underline}.case-card .case-caution{font-size:11px;color:#e3ca8c}.hero-copy h1{font-size:clamp(36px,3.8vw,56px)}
+.model-card[hidden]{display:none!important}
+
+/* Audi 2026-11-02: financial comparison CTA and real-case cross-brand reviews */
+.source-note{color:#60736c;font-size:12px;line-height:1.8;margin-top:18px}
+.comparison-cta{display:inline-flex;align-items:center;margin-top:14px;background:#143f34;color:#fff;border-radius:9px;padding:13px 17px;font-size:13px;font-weight:800;line-height:1.6}
+.comparison-cta:hover{background:#20634e}
+.case-review-cta{margin-top:27px;border:1px solid #587567;background:#1c4038;border-radius:15px;padding:28px;text-align:center}
+.case-review-cta strong{font-size:22px;color:#f0d99f}.case-review-cta p{font-size:13px;line-height:1.8;color:#d4e1db}.case-review-cta .btn{margin-top:10px}
+@media(max-width:760px){.case-review-cta{padding:22px 15px}.case-review-cta strong{font-size:19px}.comparison-cta{font-size:12px}}
+
+/* AG consulting strengths - expanded, responsive */
+.ag-strength .section-head p{max-width:510px;line-height:1.9}
+.ag-intro-line{padding:22px 26px;margin:0 0 22px;background:#eaf2ed;border-left:4px solid #b7a16a;border-radius:0 13px 13px 0}
+.ag-intro-line strong{font-size:19px;color:#19382e}.ag-intro-line p{margin:7px 0 0;color:#52685f;font-size:14px}
+.ag-detailed-grid{gap:17px}.ag-detailed-grid article{padding:27px;background:#fafcf9}.ag-detailed-grid article>span{font-size:14px}.ag-detailed-grid h3{font-size:20px;line-height:1.45;margin:14px 0}.ag-detailed-grid p{font-size:14px;line-height:1.95;margin:10px 0}.ag-detailed-grid .ag-benefit{border-top:1px solid #dfe9e2;padding-top:14px;color:#244e3e}.ag-benefit b{color:#087453;margin-right:5px}
+.ag-feature-block,.ag-risk-block{margin-top:25px;padding:34px;border-radius:17px;border:1px solid #d9e4dc;background:#f6faf7}.ag-feature-head h3,.ag-risk-block h3{font-size:27px;line-height:1.4;margin:10px 0 20px}.ag-feature-cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.ag-feature-cols>div{background:white;border:1px solid #e0e8e2;border-radius:12px;padding:22px}.ag-feature-cols h4{font-size:19px;margin:0 0 12px;color:#173d32}.ag-feature-cols p,.ag-risk-block p{font-size:14px;line-height:2;color:#415c50}.ag-risk-block{background:#f8f5ec;border-color:#e4d9b8}.ag-risk-block h3{color:#3d3828}.ag-bottom-cta{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:25px;padding:28px 32px;background:#19372e;border-radius:16px;color:#fff}.ag-bottom-cta strong{font-size:21px}.ag-bottom-cta p{font-size:14px;line-height:1.8;color:#dce8df;margin:9px 0 0}.ag-bottom-cta .btn{white-space:nowrap}
+@media(max-width:760px){.ag-feature-cols{grid-template-columns:1fr}.ag-feature-block,.ag-risk-block{padding:22px}.ag-feature-head h3,.ag-risk-block h3{font-size:23px}.ag-bottom-cta{flex-direction:column;align-items:stretch;padding:23px}.ag-bottom-cta .btn{text-align:center}.ag-detailed-grid article{padding:22px}.ag-intro-line{padding:20px}}
+
+/* === AG AUDI STANDARD v4.0: real cases first, mobile-first premium design === */
+html{scroll-behavior:smooth;scroll-padding-top:94px}
+body.audi-v4{background:#f7f9f7;color:#142a25}
+body.audi-v4 .nav{position:sticky;top:0;z-index:100;background:rgba(250,252,250,.96);backdrop-filter:blur(14px);border-bottom:1px solid #e0e9e4;box-shadow:0 4px 22px rgba(4,42,30,.05)}
+body.audi-v4 .nav nav{gap:12px}
+body.audi-v4 .nav nav a{font-size:13px}
+body.audi-v4 .section-head h2{letter-spacing:-.035em}
+body.audi-v4 .hero{background:radial-gradient(circle at 70% 30%,#194c3c 0%,#0a2a24 52%,#081b19 100%)}
+body.audi-v4 .hero-grid{padding-bottom:24px}
+.v4-hero-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:20px 0 0;position:relative;z-index:5}
+.v4-hero-actions .btn{font-weight:800;box-shadow:0 8px 22px rgba(0,0,0,.14)}
+.v4-outline{border:1px solid #bfd3c6;background:#fff;color:#103e31!important}
+.v4-hero-consult{font-weight:800;color:#e5d3a5;text-decoration:underline;text-underline-offset:4px}
+.trust-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:-5px;padding-top:20px;padding-bottom:18px}
+.trust-strip>div{background:#fff;border:1px solid #e1e9e4;border-radius:15px;padding:18px;box-shadow:0 6px 22px rgba(15,50,36,.05);display:flex;flex-direction:column;gap:6px}
+.trust-strip strong{font-size:18px;color:#0d5942}.trust-strip span{font-size:12px;color:#52685e}
+body.audi-v4 #cases{padding-top:58px;background:linear-gradient(180deg,#edf5f0 0%,#f9fbf9 100%)}
+body.audi-v4 #reviews{background:#0b2b25;color:#fff;padding-top:64px;padding-bottom:70px}
+body.audi-v4 #reviews .section-head h2,body.audi-v4 #reviews .section-head p{color:#fff}
+body.audi-v4 #reviews .kicker{color:#dfc88c}
+body.audi-v4 #reviews .blog-banner{border:1px solid rgba(235,211,153,.35);background:linear-gradient(105deg,#174b3c,#0b3028);border-radius:18px;padding:25px}
+body.audi-v4 #reviews .blog-grid{gap:16px}
+body.audi-v4 #reviews .blog-status{color:#e0e9e3}
+body.audi-v4 #reviews .blog-grid article,body.audi-v4 #reviews .blog-grid>a{color:#1d322c}
+.v4-section-lead{max-width:1050px;margin:0 auto 22px;color:#466057;line-height:1.7}
+body.audi-v4 #cases .case-card{background:#fff;border:1px solid #dce8e0;box-shadow:0 10px 28px rgba(9,52,37,.08);border-radius:18px;overflow:hidden;transition:transform .2s,box-shadow .2s}
+body.audi-v4 #cases .case-card:hover{transform:translateY(-4px);box-shadow:0 16px 35px rgba(9,52,37,.14)}
+body.audi-v4 #cases .case-visual{min-height:122px;position:relative;overflow:hidden;background:linear-gradient(125deg,#0e332b,#1d705b)}
+body.audi-v4 #cases .case-art-2{background:linear-gradient(125deg,#253a40,#607b81)}
+body.audi-v4 #cases .case-art-3{background:linear-gradient(125deg,#173a38,#4d7c71)}
+body.audi-v4 #cases .case-art-4{background:linear-gradient(125deg,#142d42,#426b84)}
+.case-car-icon{position:absolute;right:14px;top:2px;font-size:92px;color:rgba(255,255,255,.08);pointer-events:none}
+body.audi-v4 #cases .case-card a{font-weight:800}
+.v4-feature-photo{display:grid;grid-template-columns:180px 1fr;gap:22px;align-items:center;margin:22px 0 30px;padding:18px;background:#fff;border:1px solid #e0e8e2;border-radius:18px}
+.v4-feature-photo img{width:100%;max-height:165px;object-fit:cover;object-position:top;border-radius:12px}
+.v4-feature-photo strong{font-size:19px;color:#13533e}.v4-feature-photo p{margin:8px 0 0;line-height:1.7;color:#4c6257}
+.v4-finance-media{margin-top:40px}.v4-media-head h3{font-size:25px;letter-spacing:-.03em;margin:8px 0}.v4-media-head p{line-height:1.8;color:#4c6257;max-width:850px}
+.v4-finance-photo-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:22px}
+.v4-finance-photo-grid figure{margin:0;background:#fff;border-radius:18px;overflow:hidden;border:1px solid #e0e8e2;box-shadow:0 8px 22px rgba(20,58,43,.05)}
+.v4-finance-photo-grid img{width:100%;height:290px;object-fit:contain;background:#f7f8f7;display:block}
+.v4-finance-photo-grid figcaption{padding:14px 18px;font-weight:700;color:#1c4738}
+.v4-reference{margin-top:22px;border:1px solid #d5e4d9;border-radius:16px;background:#fff;padding:20px}
+.v4-reference summary{cursor:pointer;font-size:16px;font-weight:800;color:#164b38}
+.v4-reference p{font-size:13px;line-height:1.8;color:#54665e}
+.v4-reference-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.v4-reference-grid figure{margin:0}.v4-reference-grid img{width:100%;height:280px;object-fit:contain;object-position:top;background:#f7f8f7;border-radius:10px}.v4-reference-grid figcaption{font-size:12px;margin-top:7px;color:#53665c}
+.v4-business-card{display:grid;grid-template-columns:1fr minmax(0,1.3fr);gap:36px;align-items:center;padding:30px 0 48px}
+.v4-business-card h3{font-size:26px;color:#fff;margin:12px 0}.v4-business-card p{color:#d7e8df;line-height:1.8}.v4-business-card img{display:block;width:100%;max-width:600px;border-radius:16px;box-shadow:0 16px 35px rgba(0,0,0,.25)}
+.v4-mobile-bar{display:none}
+@media(max-width:1000px){.trust-strip{grid-template-columns:repeat(2,1fr)}body.audi-v4 .nav nav{gap:7px}}
+@media(max-width:760px){html{scroll-padding-top:75px}body.audi-v4{padding-bottom:62px}.trust-strip{gap:8px;padding:14px 16px}.trust-strip>div{padding:12px}.trust-strip strong{font-size:15px}.trust-strip span{font-size:11px}.v4-hero-actions{gap:8px;margin-top:14px}.v4-hero-actions .btn{width:100%;text-align:center}.v4-hero-consult{padding:7px}.v4-feature-photo{grid-template-columns:1fr}.v4-feature-photo img{max-height:200px;object-fit:contain}.v4-finance-photo-grid{grid-template-columns:1fr}.v4-finance-photo-grid img{height:245px}.v4-reference-grid{grid-template-columns:1fr}.v4-reference-grid img{height:auto;max-height:560px}.v4-business-card{grid-template-columns:1fr;padding:20px 16px 40px;gap:18px}.v4-business-card h3{font-size:23px}.v4-mobile-bar{display:grid;grid-template-columns:1fr 1fr 1fr;position:fixed;bottom:0;left:0;right:0;z-index:200;background:#fff;box-shadow:0 -5px 25px rgba(0,0,0,.13);border-top:1px solid #e1e7e1}.v4-mobile-bar a{display:flex;align-items:center;justify-content:center;padding:16px 5px;font-weight:800;font-size:13px;color:#164f3b;text-decoration:none}.v4-mobile-bar a:last-child{background:#0d5b41;color:#fff}body.audi-v4 #cases{padding-top:35px}body.audi-v4 #reviews{padding-top:40px;padding-bottom:45px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}body.audi-v4 #cases .case-card{transition:none}}
+
+/* v4.1 screenshot review fixes */
+body.audi-v4 #cases .section-head h2{color:#14372d!important;text-shadow:none!important}
+body.audi-v4 #cases .section-head>p{color:#465f54!important;opacity:1!important;font-weight:500}
+body.audi-v4 #cases .kicker{color:#217a5b!important}
+body.audi-v4 #cases .case-card{color:#16372b!important}
+body.audi-v4 #cases .case-card h3{color:#17382e!important}
+body.audi-v4 #cases .case-card>p,body.audi-v4 #cases .case-card dt{color:#52685d!important}
+body.audi-v4 #cases .case-card dd{color:#12372a!important}
+body.audi-v4 #cases .case-card dl div{border-color:#e0e9e2!important}
+body.audi-v4 #cases .case-card a{color:#086c50!important}
+body.audi-v4 #cases .case-top{color:#587367!important}
+body.audi-v4 #cases .case-top b{color:#866b2f!important}
+body.audi-v4 #cases .case-visual{height:160px;min-height:160px;background:#e9eeeb!important;border:0;display:block;margin:14px 0 6px;position:relative}
+body.audi-v4 #cases .case-visual::before{display:none!important}
+body.audi-v4 #cases .case-visual img{display:block;width:100%;height:100%;object-fit:cover}
+body.audi-v4 #cases .case-visual .case-photo-note{position:absolute;bottom:5px;right:6px;left:auto;top:auto;background:rgba(10,32,27,.83);padding:4px 7px;border-radius:4px;font-size:9px;color:#fff;letter-spacing:0}
+.ag-strength-main-photo{max-width:740px;margin:0 auto 34px;text-align:center}
+.ag-strength-main-photo img{display:block;max-height:440px;width:100%;object-fit:contain;object-position:center;border-radius:17px;background:#f2f6f3;box-shadow:0 12px 35px rgba(7,40,29,.09)}
+.ag-strength-main-photo figcaption{font-size:12px;color:#6b8074;margin-top:8px}
+body.audi-v4 .hero-visual .v4-hero-actions,body.audi-v4 .hero-visual .hero-actions{display:none!important}
+@media(max-width:760px){body.audi-v4 #cases .case-visual{height:190px;min-height:190px}.ag-strength-main-photo img{max-height:400px}}
+
+/* v4.2: signature slogan, portrait layout and premium conditional Plan B */
+#advantages.ag-strength{padding-top:78px}
+.ag-signature{text-align:center;max-width:1060px;margin:0 auto 34px}
+.ag-signature .kicker{display:block;margin-bottom:15px;color:#257057;letter-spacing:.15em;font-size:.76rem;font-weight:800}
+.ag-signature h2{font-size:clamp(1.8rem,3.45vw,3.2rem);line-height:1.29;letter-spacing:-.055em;color:#102c26;margin:0 0 18px;font-weight:850;word-break:keep-all}
+.ag-signature h2 em{font-style:normal;color:#1d765b}
+.ag-signature p{color:#475e57;max-width:850px;margin:0 auto;font-size:1.03rem;line-height:1.85;word-break:keep-all}
+.ag-portrait-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(20px,4vw,54px);align-items:center;margin:28px 0 45px}
+.ag-portrait-card{margin:0;overflow:hidden;border-radius:22px;background:#eaf0ec;border:1px solid #dce6df;box-shadow:0 15px 38px rgba(11,48,36,.09)}
+.ag-portrait-card img{display:block;width:100%;height:auto;object-fit:contain}
+.ag-portrait-card figcaption{font-size:.83rem;color:#52645c;padding:12px 18px;background:#fff}
+.ag-portrait-copy{padding:6px 0}.ag-portrait-copy .kicker{color:#277357;letter-spacing:.13em;font-size:.78rem;font-weight:800}
+.ag-portrait-copy h3{font-size:clamp(1.55rem,2.3vw,2.55rem);line-height:1.38;color:#142b25;letter-spacing:-.05em;margin:12px 0 22px;word-break:keep-all}
+.ag-portrait-copy h3 strong{color:#17694f}.ag-portrait-copy p{color:#475d55;line-height:1.95;margin:0 0 15px;word-break:keep-all}
+.ag-portrait-highlights{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:23px 0}
+.ag-portrait-highlights span{background:#f0f6f2;border:1px solid #d9e9de;color:#174c3b;border-radius:10px;padding:11px 12px;font-weight:750;font-size:.88rem}
+.ag-portrait-highlights span:before{content:'✓';color:#11845a;margin-right:8px}
+.ag-portrait-copy .btn{display:inline-flex}
+#advantages .ag-risk-block{margin-top:44px;padding:clamp(24px,4vw,46px);background:linear-gradient(125deg,#082d25 0%,#0b4436 55%,#123b32 100%);color:#fff;border:1px solid #316b55;border-radius:24px;box-shadow:0 18px 45px rgba(0,36,25,.15)}
+.ag-risk-top{display:grid;grid-template-columns:92px 1fr;gap:24px;align-items:center}
+.ag-risk-symbol{width:84px;height:84px;display:grid;place-items:center;border-radius:22px;border:2px solid #cdbb7d;color:#e9d39a;font-size:3.2rem;font-weight:900;background:rgba(237,213,142,.08)}
+#advantages .ag-risk-block .kicker{color:#e4c987;font-weight:800;letter-spacing:.14em}
+#advantages .ag-risk-block h3{color:#fff;font-size:clamp(1.65rem,3vw,2.85rem);line-height:1.32;letter-spacing:-.04em;margin:11px 0 14px;word-break:keep-all}
+#advantages .ag-risk-block h3 em{color:#f4d18a;font-style:normal}
+#advantages .ag-risk-block p{color:#e0eae4;line-height:1.85}
+.ag-risk-lead{max-width:850px}.ag-risk-lead strong{color:#f9dfa7}
+.ag-risk-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:26px 0}
+.ag-risk-grid>div{padding:22px;border:1px solid rgba(226,208,153,.28);background:rgba(255,255,255,.065);border-radius:15px}
+.ag-risk-grid span{color:#e6cc8f;font-size:.77rem;font-weight:800;letter-spacing:.08em}
+.ag-risk-grid h4{color:#fff;font-size:1.1rem;line-height:1.5;margin:10px 0}
+#advantages .ag-risk-grid p{font-size:.91rem;margin:0;color:#d5e6df}
+.ag-risk-foot{padding:20px 24px;border-left:4px solid #d9bc78;background:rgba(255,255,255,.08);border-radius:0 12px 12px 0}
+.ag-risk-foot strong{color:#f5d896;font-size:1.1rem}.ag-risk-foot p{margin:8px 0 0}.ag-risk-foot b{color:#fff}
+@media(max-width:780px){#advantages.ag-strength{padding-top:50px}.ag-signature{text-align:left}.ag-signature h2 br{display:none}.ag-portrait-layout{grid-template-columns:1fr;gap:20px}.ag-portrait-card{max-width:580px}.ag-risk-top{grid-template-columns:1fr;gap:15px}.ag-risk-symbol{width:62px;height:62px;font-size:2.3rem}.ag-risk-grid{grid-template-columns:1fr}.ag-portrait-highlights{grid-template-columns:1fr 1fr}}
+@media(max-width:420px){.ag-portrait-highlights{grid-template-columns:1fr}.ag-signature h2{font-size:1.85rem}}
+
+/* v4.3 · 120개월 활용 가이드 */
+.longterm-guide{background:linear-gradient(180deg,#f0f5f0 0%,#fff 100%);border-top:1px solid #dce8df}
+.longterm-heading{max-width:900px;margin:0 auto 36px;text-align:center}
+.longterm-heading .kicker{color:#1c775a}
+.longterm-heading h2{color:#132e26;font-size:clamp(29px,3.2vw,45px);line-height:1.35;letter-spacing:-.05em;margin:15px 0}
+.longterm-heading h2 em{font-style:normal;color:#1a7b5b}
+.longterm-heading>p{color:#53685d;font-size:15px;line-height:1.9}
+.longterm-summary{display:grid;grid-template-columns:190px 1fr;align-items:center;gap:32px;padding:28px 38px;margin-bottom:24px;border:1px solid #d7e5d9;border-radius:20px;background:#fff;box-shadow:0 12px 35px rgba(15,58,41,.06)}
+.longterm-number{color:#17694e;font-weight:900;font-size:76px;letter-spacing:-.075em;line-height:1}.longterm-number small{font-size:20px;letter-spacing:0;margin-left:7px}
+.longterm-summary strong{display:block;font-size:23px;color:#14372c;letter-spacing:-.035em;line-height:1.5}
+.longterm-summary p{font-size:14px;color:#586c61;line-height:1.85;margin:8px 0 0}
+.longterm-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+.longterm-cards article{padding:28px 30px;background:#fff;border:1px solid #dfe9e1;border-radius:16px;box-shadow:0 6px 20px rgba(9,47,33,.035)}
+.longterm-cards .guide-step{font-size:11px;letter-spacing:.07em;color:#198264;font-weight:900}
+.longterm-cards h3{font-size:20px;line-height:1.55;color:#18392f;letter-spacing:-.035em;margin:12px 0 10px}
+.longterm-cards p{color:#53685e;font-size:13px;line-height:1.95;margin:0}
+.longterm-takeaway{margin-top:25px;padding:34px 38px;border-radius:20px;background:linear-gradient(120deg,#0b3027,#145241);color:#fff;display:flex;justify-content:space-between;gap:30px;align-items:center}
+.longterm-takeaway span{font-size:12px;color:#e5cf96;font-weight:800;letter-spacing:.1em}
+.longterm-takeaway h3{font-size:clamp(21px,2.2vw,30px);line-height:1.5;margin:9px 0 12px;letter-spacing:-.04em;color:#fff}
+.longterm-takeaway p{font-size:12px;line-height:1.9;color:#d4e7dd;max-width:720px;margin:0}
+.longterm-takeaway .btn{flex-shrink:0;background:#ddc78c;color:#123b2e}
+@media(max-width:780px){.longterm-summary{grid-template-columns:1fr;gap:14px;padding:25px}.longterm-number{font-size:56px}.longterm-summary strong{font-size:19px}.longterm-cards{grid-template-columns:1fr}.longterm-cards article{padding:23px}.longterm-takeaway{flex-direction:column;align-items:stretch;padding:27px}.longterm-takeaway .btn{width:100%}}
+@media(max-width:420px){.hero-luxury-heading h2{font-size:25px}.longterm-heading h2{font-size:27px}}
+
+/* v4.5: MyBranch left, two loan posters stacked right */
+.finance-showcase{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px;margin:28px 0 32px;align-items:stretch}.finance-showcase figure{margin:0;overflow:hidden;background:#fff;border:1px solid #e1e8e3;border-radius:18px;display:flex;flex-direction:column}.finance-showcase img{display:block;width:100%;height:100%;object-fit:contain;min-height:0}.finance-showcase figcaption{padding:12px 16px;font-size:13px;color:#3b5550;border-top:1px solid #e6ebe8;background:#fff}.finance-showcase-main img{flex:1;max-height:750px}.finance-showcase-side{display:grid;grid-template-rows:1fr 1fr;gap:20px;min-height:0}.finance-showcase-side figure{min-height:0}.finance-showcase-side img{flex:1;max-height:345px}.finance-guides{margin:20px 0 38px;padding:28px;background:#f0f5f2;border-radius:22px;border:1px solid #dce9e1}.finance-guides h3{font-size:clamp(22px,2.5vw,30px);margin:8px 0}.finance-guides-head p{color:#586b64;margin:6px 0 22px}.finance-guide-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.finance-guide-button{appearance:none;cursor:pointer;text-align:left;background:#fff;border:1px solid #dce4df;border-radius:15px;padding:12px;display:flex;flex-direction:column;gap:8px;color:#172b26;font:inherit;transition:transform .15s,border-color .15s}.finance-guide-button:hover,.finance-guide-button:focus-visible{transform:translateY(-2px);border-color:#297b62;outline-offset:3px}.finance-guide-button img{width:100%;height:190px;object-fit:contain;background:#f9fbfa;border-radius:10px}.finance-guide-button strong{font-size:15px}.finance-guide-button span{font-size:12px;color:#64746e}.finance-guide-disclaimer{font-size:12px;color:#61746b;line-height:1.7;margin:18px 0 0}.finance-guide-dialog{position:fixed;inset:3vh 3vw;border:0;border-radius:20px;padding:0;width:min(1100px,94vw);max-width:94vw;max-height:94vh;background:#fff;color:#152d25;box-shadow:0 18px 90px #0005}.finance-guide-dialog::backdrop{background:rgba(0,0,0,.72)}.finance-guide-toolbar,.finance-guide-actions{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 18px}.finance-guide-toolbar{border-bottom:1px solid #e5ece8}.finance-guide-actions{border-top:1px solid #e5ece8}.finance-guide-toolbar button,.finance-guide-actions button{cursor:pointer;border:1px solid #d1ded6;border-radius:9px;background:#f3f7f4;color:#1a3a2f;padding:10px 14px;font:inherit}.finance-guide-image-wrap{height:min(70vh,760px);overflow:auto;display:flex;justify-content:center;align-items:flex-start;padding:12px;background:#f8faf9}.finance-guide-image-wrap img{max-width:100%;height:auto;object-fit:contain}@media(max-width:720px){.finance-showcase{grid-template-columns:1fr}.finance-showcase-main img{max-height:none}.finance-showcase-side{grid-template-rows:auto auto}.finance-showcase-side img{max-height:none}.finance-guide-grid{grid-template-columns:1fr}.finance-guide-button img{height:230px}.finance-guides{padding:17px}.finance-guide-toolbar,.finance-guide-actions{padding:10px}.finance-guide-toolbar strong{font-size:13px}}
+
+/* 통합 신차 홈페이지: 사례 사진 제작 전 안내 */
+.case-placeholder{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;min-height:190px;background:linear-gradient(130deg,#182a35,#344e59);color:#fff;text-align:center;padding:20px}.case-placeholder span{font-weight:800;font-size:1.2rem}.case-placeholder small{color:#dbe4e7}
+
+/* 실제 사례 4건: 차종별 생성 참고 이미지 */
+.case-car-image{display:block;width:100%;height:175px;object-fit:cover;border-radius:12px;background:#e9efec}
+
+/* 캐피탈·파이낸셜 신용 영향 주의 */
+.capital-credit-warning{margin:15px 0 12px;padding:14px 15px;border:1px solid #dca8a8;border-radius:12px;background:#fff1f0;color:#8c2020;font-size:.92rem;line-height:1.65}.capital-credit-warning strong{display:block;font-weight:800;margin-bottom:4px}.capital-credit-warning b{font-weight:800}
+
+/* FAQ v4: responsive two-column accordion cards */
+.faq-heading{align-items:center}.faq-intro{font-size:14px;line-height:1.9;color:#61766b;max-width:680px;margin:13px 0 0}.faq-count{display:flex;align-items:center;gap:11px;padding:16px 22px;background:#eff5f0;border:1px solid #dce9df;border-radius:14px;white-space:nowrap}.faq-count strong{font-size:35px;color:#146b52;line-height:1}.faq-count span{font-size:12px;font-weight:800;color:#537368}.faq-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;align-items:start}.faq-card{background:#fff;border:1px solid #dfe9e2;border-radius:13px;box-shadow:0 6px 20px #153c2910;overflow:hidden}.faq-card[open]{border-color:#9dcbb3;box-shadow:0 9px 24px #153c2917}.faq-card summary{list-style:none;display:flex;align-items:center;gap:13px;cursor:pointer;padding:20px 49px 20px 19px;position:relative;min-height:83px}.faq-card summary::-webkit-details-marker{display:none}.faq-card summary:after{content:'+';position:absolute;right:19px;top:50%;transform:translateY(-50%);font-size:24px;font-weight:500;color:#197f60}.faq-card[open] summary:after{content:'−'}.faq-number{font-size:12px;color:#1a8765;font-weight:900;letter-spacing:.05em;flex:none}.faq-question{font-size:14px;font-weight:800;line-height:1.6;color:#19382e}.faq-answer{margin:0 19px 20px 45px;padding-top:15px;border-top:1px solid #e7eee9;color:#536c5e;font-size:13px;line-height:1.95}.faq-cta{margin-top:27px;background:linear-gradient(115deg,#153b32,#0b2924);color:white;border-radius:16px;padding:25px 28px;display:flex;align-items:center;justify-content:space-between;gap:22px}.faq-cta strong{font-size:18px}.faq-cta p{color:#c0d4c9;font-size:12px;line-height:1.8;margin:7px 0 0}.faq-cta a{display:inline-block;flex:none;background:#dfc384;color:#16342b;border-radius:9px;padding:14px 18px;font-size:13px;font-weight:900}
+@media(max-width:760px){.faq-grid{grid-template-columns:1fr}.faq-heading .faq-count{display:none}.faq-card summary{min-height:70px;padding:17px 43px 17px 16px}.faq-answer{margin:0 16px 18px 41px}.faq-cta{flex-direction:column;align-items:stretch}.faq-cta a{text-align:center}}
+
+/* v5: 하단 원형 사진 대신 실제 가로형 명함 */
+.consult-grid{grid-template-columns:minmax(0,1fr) minmax(320px,510px);gap:48px}
+.consult-card-link{display:block;width:100%;max-width:510px;justify-self:end}
+.consult img.consult-business-card{display:block;width:100%;height:auto;max-width:none;margin:0;border:0;border-radius:12px;object-fit:contain;box-shadow:0 18px 40px #0005}
+@media(max-width:760px){.consult-grid{grid-template-columns:1fr;gap:28px}.consult-card-link{justify-self:center;max-width:520px}.consult img.consult-business-card{width:100%;max-width:none}}
